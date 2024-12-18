@@ -1,0 +1,15 @@
+# macOS sistem dosyaları
+.DS_Store
+
+# Windows sistem dosyaları
+Thumbs.db
+ehthumbs.db
+
+# Editör ve IDE dosyaları
+.vscode/
+.idea/
+
+# Node.js veya geçici dosyalar
+node_modules/
+*.log
+*.zip
