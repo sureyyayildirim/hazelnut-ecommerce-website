@@ -12,11 +12,11 @@ body {
 }
 
 body.homepage {
-    background: url('assets/images/hero.jpg') no-repeat center center/cover;
+    background: url('/assets/images/hero.jpg') no-repeat center center/cover;
 }
 
 body.services-page, body.products-page, body.about-us-page {
-    background: url('assets/images/bg.jpg') no-repeat center center/cover;
+    background: url('/assets/images/bg.jpg') no-repeat center center/cover;
     color: black;
     font-family: Arial, sans-serif;
     scroll-behavior: smooth;
