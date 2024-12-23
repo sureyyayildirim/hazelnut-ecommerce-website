@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Fındık Ocağı</title>
+  <link rel="stylesheet" href="../assets/styles/style.css">
+</head>
+<body class="about-us-page">
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/images/logo.png" alt="Finduk Logo">
+            <a href="index.html" class="brand-link">
+              <span class="brand-name">FINDIK OCAĞI</span>
+            </a>
+        </div>
+      <ul class="nav-links">
+        <li><a href="about.html" class="active">ABOUT US</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="cart" id="cart-icon">
+            <img src="../assets/images/cart.png" alt="Shopping Cart" class="cart-icon" />
+            <span id="cart-count">0</span> 
+            
+            <!-- Modal -->
+            <div class="modal" id="cart-modal">
+              <div class="modal-content">
+                <h2>Cart</h2>
+                <ul id="cart-items"></ul>
+                <p>Total: $<span id="total-price">0.00</span></p>
+                <button id="checkout-button">Checkout</button>
+              </div>
+            </div>
+        </div>  
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." />
+            <button>
+              <img src="../assets/images/search-icon.png" alt="Search Icon" class="search-icon">
+            </button>
+          </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- About Us Section -->
+  <section class="about-us">
+    <div class="about-header">
+      <h1>ABOUT US</h1>
+      <h2>Our Story</h2>
+      <p>At Fındık Ocağı, we are passionate about delivering the finest hazelnuts straight from our fields to your table. Establihed in 2019, nestled in the heart of Sakarya collabrating with local farmers and producers by offering comprehensive processing services, including cracking, roasting, and packaging. By handling hazelnuts from other producers, we help them prepare their products with precision and care, ensuring every batch meets the highest standards of freshness, flavor, and nutritional value. Using advanced machinery and adhering to strict quality standards, we take pride in supporting our community while preserving the rich heritage of Türkiye, which proudly produces approximately 70% of the world’s hazelnut supply.</p>
+    </div>
+  </section>
+
+  <!-- Image Section -->
+  <section class="about-image">
+    <img src="../assets/images/hazelnut-processing.jpg" alt="Hazelnut Processing">
+  </section>
+
+  <!-- Vision and Values -->
+  <section class="vision-values">
+    <div class="vision">
+      <h2>Our Vision</h2>
+      <p>
+        As we look to the future, we aim to expand our reach, bringing the richness of Türkiye’s hazelnuts to even more people worldwide. Whether through our own production or by supporting other farmers with exceptional processing services, we are committed to maintaining the quality, authenticity, and innovation that define FINDIK OCAĞI. Our goal is to create a thriving network of hazelnut producers and consumers, ensuring that everyone can experience the excellence of our products.
+      </p>
+    </div>
+    <div class="values">
+      <h2>Our Values</h2>
+      <p>
+        Quality: Every product and service is crafted with care and precision. <br>
+        Sustainability: We prioritize eco-friendly practices to protect our planet and support local farmers. <br>
+        Community: We value the hardworking farmers and producers who contribute to our shared success. <br>
+        Innovation: By combining tradition with modern methods, we continually strive for improvement. <br>
+        Collaboration: Partnering with farmers and producers, we ensure their products meet the highest standards and reach a global market.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <footer class="contact-section">
+    <div class="contact-container">
+      <div class="contact-logo">
+        <img src="../assets/images/logo.png" alt="Fındık Ocağı Logo">
+        <h3>FINDIK OCAĞI</h3>
+        <p>We specialize in hazelnut processing and product distribution. From hazelnut flours to chopped hazelnuts, cracking, roasting and packaging.</p>
+      </div>
+      <div class="contact-social">
+        <div class="contact-title">
+          <h3>CONTACT US</h3>
+          <div class="title-icons">
+            <img src="../assets/images/phone-icon.png" alt="Phone Icon">
+            <img src="../assets/images/mail-icon.png" alt="Mail Icon">
+          </div>
+        </div>
+        <div class="social-icons">
+          <div class="social-item">
+            <img src="../assets/images/twitter-icon.png" alt="Twitter">
+            <span>@findikocagi</span>
+          </div>
+          <div class="social-item">
+            <img src="../assets/images/facebook-icon.png" alt="Facebook">
+            <span>findikocagi</span>
+          </div>
+          <div class="social-item">
+            <img src="../assets/images/instagram-icon.png" alt="Instagram">
+            <span>@findikocagi</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-info">
+        <p>Address:</p>
+        <p>[Street Name, Building Number]</p>
+        <p>[City, State, ZIP Code]</p>
+        <p>Phone Numbers:</p>
+        <p>[+00 000 000 0000]</p>
+        <p>[+00 000 000 0000]</p>
+        <p>Email:</p>
+        <p>[info@findikocagi.com]</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
