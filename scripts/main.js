@@ -106,5 +106,5 @@ document.getElementById("checkout-button").addEventListener("click", () => {
     updateCartCount();
     updateCartItems();
 
-    window.location.href = "assets/images/thank-you.jpg";
+    alert("Proceeding to checkout...")
 });
