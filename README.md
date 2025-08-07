@@ -64,7 +64,7 @@ The Hazelnut E-commerce Platform is a static website designed to showcase hazeln
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/sureyyacoder/hazelnut-ecommerce-website.git]
+   git clone [https://github.com/sureyyayildirim/hazelnut-ecommerce-website.git]
    ```
 2. Navigate to the project directory:
    ```bash
